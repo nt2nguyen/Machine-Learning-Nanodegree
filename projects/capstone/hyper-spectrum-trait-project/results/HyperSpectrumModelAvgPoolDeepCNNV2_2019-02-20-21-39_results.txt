@@ -1,0 +1,29 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9339261651039124
+trait: Narea_O, R square: 0.929794430732727
+trait: SPAD_O, R square: 0.9315875768661499
+trait: Nmass_O, R square: 0.9091014862060547
+trait: Parea_O, R square: 0.8462037444114685
+trait: Pmass_O, R square: 0.873095691204071
+trait: Vcmax, R square: 0.9270583391189575
+trait: Vcmax25, R square: 0.9348959922790527
+trait: J, R square: 0.9244145750999451
+trait: Photo_O, R square: 0.9174787402153015
+trait: Cond_O, R square: 0.8641171455383301
+Average R square: 0.9083339897069064
+-------------------------------------------------
+Here are the testing data set results: 
+trait: LMA_O, R square: 0.8609538674354553
+trait: Narea_O, R square: 0.8593560457229614
+trait: SPAD_O, R square: 0.831187903881073
+trait: Nmass_O, R square: 0.6735868453979492
+trait: Parea_O, R square: 0.3500402569770813
+trait: Pmass_O, R square: 0.560421347618103
+trait: Vcmax, R square: 0.724486231803894
+trait: Vcmax25, R square: 0.6242668628692627
+trait: J, R square: 0.7771031260490417
+trait: Photo_O, R square: 0.7139318585395813
+trait: Cond_O, R square: 0.3532560467720032
+Average R square: 0.6662354902787642
+-------------------------------------------------

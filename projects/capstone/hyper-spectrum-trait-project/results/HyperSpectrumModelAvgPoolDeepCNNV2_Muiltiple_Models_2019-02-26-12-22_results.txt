@@ -1,0 +1,37 @@
+-------------------------------------------------
+CNN Architecture: HyperSpectrumModelAvgPoolDeepCNNV2_Muiltiple_Models
+Best paramaters: 
+trait: Narea_O, lr: 0.001, dropout: 0.03, weight_decay: 0.0001
+trait: SPAD_O, lr: 0.0005, dropout: 0.2, weight_decay: 0.0001
+trait: Nmass_O, lr: 0.0005, dropout: 0.5, weight_decay: 0.0005
+trait: Parea_O, lr: 0.0005, dropout: 0.5, weight_decay: 0.0001
+-------------------------------------------------
+Here are the average training data set results:
+trait: LMA_O, R square: 0.8556056618690491
+trait: Narea_O, R square: 0.898948073387146
+trait: SPAD_O, R square: 0.8774226903915405
+trait: Nmass_O, R square: 0.6769312620162964
+trait: Parea_O, R square: 0.5058148503303528
+trait: Pmass_O, R square: 0.6552191376686096
+trait: Vcmax, R square: 0.8105680346488953
+trait: Vcmax25, R square: 0.7695596218109131
+trait: J, R square: 0.8474191427230835
+trait: Photo_O, R square: 0.6407857537269592
+trait: Cond_O, R square: 0.4471427798271179
+Average R square: 0.725947000763633
+-------------------------------------------------
+Here are the average testing data set results: 
+trait: LMA_O, R square: 0.8325433731079102
+trait: Narea_O, R square: 0.8496267795562744
+trait: SPAD_O, R square: 0.8486930727958679
+trait: Nmass_O, R square: 0.6339966654777527
+trait: Parea_O, R square: 0.3689005970954895
+trait: Pmass_O, R square: 0.5108024477958679
+trait: Vcmax, R square: 0.7020948529243469
+trait: Vcmax25, R square: 0.5698226094245911
+trait: J, R square: 0.7699729204177856
+trait: Photo_O, R square: 0.717775821685791
+trait: Cond_O, R square: 0.4325087070465088
+Average R square: 0.657885258848017
+
+-------------------------------------------------

@@ -1,0 +1,17 @@
+-------------------------------------------------
+CNN Architecture: HyperSpectrumModelAvgPoolDeepCNN_V_Multiple_Models
+Best paramaters: 
+trait: Parea_O, lr: 0.0001, dropout: 0.3, weight_decay: 0, stddev:0.01
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: -4.2557716369628906e-05
+Average R square: -4.2557716369628906e-05
+-------------------------------------------------
+Here are the validation data set results: 
+trait: Parea_O, R square: -4.267692565917969e-05
+Average R square: -4.267692565917969e-05
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: -0.014742851257324219
+Average R square: -0.014742851257324219
+-------------------------------------------------

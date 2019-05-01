@@ -1,0 +1,41 @@
+HyperSpectrumModelAvgPoolDeepCNN_New(
+  (noise1): GaussianNoise()
+  (avgPool1): AvgPool1d(kernel_size=(3,), stride=(3,), padding=(0,))
+  (block1): DeepBasicBlock(
+    (Conv1D): Conv1d(1, 100, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_1): DeepBasicBlock(
+    (Conv1D): Conv1d(100, 200, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_2): DeepBasicBlock(
+    (Conv1D): Conv1d(200, 200, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (avgPool3): AvgPool1d(kernel_size=(3,), stride=(3,), padding=(0,))
+  (fc1): Linear(in_features=1600, out_features=1000, bias=True)
+  (relu1): ReLU(inplace)
+  (dropout1): Dropout(p=0.5)
+  (fc2): Linear(in_features=1000, out_features=500, bias=True)
+  (relu2): ReLU(inplace)
+  (dropout2): Dropout(p=0.5)
+  (fc3): Linear(in_features=500, out_features=1, bias=True)
+)
+lr: 0.0001, dropout: 0.5, weight_decay:0
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.8899446129798889
+Average R square: 0.8899446129798889
+-------------------------------------------------
+Here are the validation data set results:
+trait: Parea_O, R square: 0.6116921305656433
+Average R square: 0.6116921305656433
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.2081531286239624
+Average R square: 0.2081531286239624
+-------------------------------------------------

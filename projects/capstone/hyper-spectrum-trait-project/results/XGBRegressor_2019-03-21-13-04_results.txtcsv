@@ -1,0 +1,3 @@
+Model, Dataset, LMA_O, Narea_O, SPAD_O, Nmass_O, Parea_O, Pmass_O, Vcmax, Vcmax25, J, Photo_O, Cond_O, Average
+XGBRegressor, train, , , , , 0.5685280476876908, , , , , , , 0.5685280476876908
+XGBRegressor, test, , , , , 0.24839398323430384, , , , , , , 0.24839398323430384

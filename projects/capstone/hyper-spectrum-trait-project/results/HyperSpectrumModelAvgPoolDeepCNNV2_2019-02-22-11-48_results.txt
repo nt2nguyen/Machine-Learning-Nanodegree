@@ -1,0 +1,9 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: Vcmax25, R square: 0.8765076398849487
+Average R square: 0.8765076398849487
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Vcmax25, R square: 0.6323258876800537
+Average R square: 0.6323258876800537
+-------------------------------------------------

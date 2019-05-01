@@ -1,0 +1,9 @@
+lr: 0.0005 dropout: 0.5 weight_decay: 0.0001-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.5770610570907593
+Average R square: 0.5770610570907593
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.37167006731033325
+Average R square: 0.37167006731033325
+-------------------------------------------------

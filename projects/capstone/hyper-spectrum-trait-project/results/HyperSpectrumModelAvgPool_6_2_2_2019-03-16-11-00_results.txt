@@ -1,0 +1,30 @@
+HyperSpectrumModelAvgPool(
+  (block1): BasicBlock(
+    (Conv1D_1): Conv1d(1, 10, kernel_size=(3,), stride=(2,), padding=(1,))
+    (bn1): BatchNorm1d(10, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu1): ReLU(inplace)
+    (Conv1D_2): Conv1d(10, 10, kernel_size=(3,), stride=(2,), padding=(1,))
+    (bn2): BatchNorm1d(10, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu2): ReLU(inplace)
+  )
+  (avgPool): AvgPool1d(kernel_size=(5,), stride=(5,), padding=(2,))
+  (fc1): Linear(in_features=1080, out_features=200, bias=True)
+  (relu): ReLU(inplace)
+  (fc2): Linear(in_features=200, out_features=100, bias=True)
+  (dropout): Dropout(p=0)
+  (fc3): Linear(in_features=100, out_features=1, bias=True)
+)
+lr: 0.01, dropout: 0, weight_decay:0
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.4612480401992798
+Average R square: 0.4612480401992798
+-------------------------------------------------
+Here are the validation data set results:
+trait: Parea_O, R square: 0.30713504552841187
+Average R square: 0.30713504552841187
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.4447938799858093
+Average R square: 0.4447938799858093
+-------------------------------------------------

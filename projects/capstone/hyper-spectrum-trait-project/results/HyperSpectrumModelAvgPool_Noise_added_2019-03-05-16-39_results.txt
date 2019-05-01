@@ -1,0 +1,9 @@
+lr: 0.0005 dropout: 0.5 weight_decay: 0.0001-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9512659311294556
+Average R square: 0.9512659311294556
+-------------------------------------------------
+Here are the testing data set results: 
+trait: LMA_O, R square: 0.862957775592804
+Average R square: 0.862957775592804
+-------------------------------------------------

@@ -1,0 +1,9 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: Pmass_O, R square: 0.9057067632675171
+Average R square: 0.9057067632675171
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Pmass_O, R square: 0.5352205634117126
+Average R square: 0.5352205634117126
+-------------------------------------------------

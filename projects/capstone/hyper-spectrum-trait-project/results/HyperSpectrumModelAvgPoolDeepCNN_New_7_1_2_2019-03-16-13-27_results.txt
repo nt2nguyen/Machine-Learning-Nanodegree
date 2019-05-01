@@ -1,0 +1,40 @@
+HyperSpectrumModelAvgPoolDeepCNN_New(
+  (noise1): GaussianNoise()
+  (avgPool1): AvgPool1d(kernel_size=(5,), stride=(5,), padding=(2,))
+  (block1): DeepBasicBlock(
+    (Conv1D): Conv1d(1, 100, kernel_size=(5,), stride=(5,))
+    (bn): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_1): DeepBasicBlock(
+    (Conv1D): Conv1d(100, 200, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_2): DeepBasicBlock(
+    (Conv1D): Conv1d(200, 200, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (fc1): Linear(in_features=1800, out_features=1000, bias=True)
+  (relu1): ReLU(inplace)
+  (dropout1): Dropout(p=0.2)
+  (fc2): Linear(in_features=1000, out_features=500, bias=True)
+  (relu2): ReLU(inplace)
+  (dropout2): Dropout(p=0.2)
+  (fc3): Linear(in_features=500, out_features=1, bias=True)
+)
+lr: 0.0001, dropout: 0.2, weight_decay:0
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.5916681289672852
+Average R square: 0.5916681289672852
+-------------------------------------------------
+Here are the validation data set results:
+trait: Parea_O, R square: 0.49517959356307983
+Average R square: 0.49517959356307983
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.22527647018432617
+Average R square: 0.22527647018432617
+-------------------------------------------------

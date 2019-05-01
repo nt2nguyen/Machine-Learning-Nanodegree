@@ -1,0 +1,4 @@
+Model, Dataset, LMA_O, Narea_O, SPAD_O, Nmass_O, Parea_O, Pmass_O, Vcmax, Vcmax25, J, Photo_O, Cond_O, Average
+HyperSpectrumModelAvgPoolDeepCNN_V_Multiple_Models, train, , , , , -0.014742851257324219, , , , , , , -0.014742851257324219
+HyperSpectrumModelAvgPoolDeepCNN_V_Multiple_Models, val, , , , , -0.014742851257324219, , , , , , , -0.014742851257324219
+HyperSpectrumModelAvgPoolDeepCNN_V_Multiple_Models, test, , , , , -0.014742851257324219, , , , , , , -0.014742851257324219

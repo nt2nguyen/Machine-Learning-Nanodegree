@@ -1,0 +1,9 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9302041530609131
+Average R square: 0.9302041530609131
+-------------------------------------------------
+Here are the testing data set results: 
+trait: LMA_O, R square: 0.8607611060142517
+Average R square: 0.8607611060142517
+-------------------------------------------------

@@ -1,0 +1,41 @@
+-------------------------------------------------
+CNN Architecture: HyperSpectrumModelAvgPoolDeepCNN_V_GridSearch
+Best paramaters: 
+trait: Nmass_O, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: Pmass_O, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: Vcmax, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: Vcmax25, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: J, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: Photo_O, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+trait: Cond_O, lr: lr, dropout: dropout, weight_decay: weight_decay, stddev:stddev
+-------------------------------------------------
+Here are the training data set results:
+trait: Nmass_O, R square: 0.7462122440338135
+trait: Pmass_O, R square: 0.7099355459213257
+trait: Vcmax, R square: 0.8195658922195435
+trait: Vcmax25, R square: 0.789579451084137
+trait: J, R square: 0.8914819359779358
+trait: Photo_O, R square: 0.6889361143112183
+trait: Cond_O, R square: 0.47781771421432495
+Average R square: 0.7319326996803284
+-------------------------------------------------
+Here are the validation data set results: 
+trait: Nmass_O, R square: 0.7462122440338135
+trait: Pmass_O, R square: 0.7099355459213257
+trait: Vcmax, R square: 0.8195658922195435
+trait: Vcmax25, R square: 0.789579451084137
+trait: J, R square: 0.8914819359779358
+trait: Photo_O, R square: 0.688936173915863
+trait: Cond_O, R square: 0.47781771421432495
+Average R square: 0.7319327081952777
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Nmass_O, R square: 0.6766998171806335
+trait: Pmass_O, R square: 0.49085795879364014
+trait: Vcmax, R square: 0.6858417987823486
+trait: Vcmax25, R square: 0.5252347588539124
+trait: J, R square: 0.7175247073173523
+trait: Photo_O, R square: 0.7035881280899048
+trait: Cond_O, R square: 0.3247356414794922
+Average R square: 0.5892118300710406
+-------------------------------------------------

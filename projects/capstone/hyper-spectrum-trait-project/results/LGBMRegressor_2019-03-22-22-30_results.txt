@@ -1,0 +1,56 @@
+-------------------------------------------------
+best parameters
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.3, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.8}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.8}
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9540223199701529
+trait: Narea_O, R square: 0.9401051228871242
+trait: SPAD_O, R square: 0.9013451289537461
+trait: Nmass_O, R square: 0.8268933970665648
+trait: Parea_O, R square: 0.5987815560387981
+trait: Pmass_O, R square: 0.9990635585624918
+trait: Vcmax, R square: 0.8654613758178263
+trait: Vcmax25, R square: 0.9429875000142219
+trait: J, R square: 0.8708473738096835
+trait: Photo_O, R square: 0.880025279257991
+trait: Cond_O, R square: 0.2851236511390419
+Average R square: 0.8240596603197857
+-------------------------------------------------
+Here are the validation data set results:
+trait: LMA_O, R square: 0.7849138680092969
+trait: Narea_O, R square: 0.8662299244859568
+trait: SPAD_O, R square: 0.8209332900759213
+trait: Nmass_O, R square: 0.6355136674647253
+trait: Parea_O, R square: 0.35173615912102674
+trait: Pmass_O, R square: 0.6263273402328903
+trait: Vcmax, R square: 0.6711782798837715
+trait: Vcmax25, R square: 0.7361847112105231
+trait: J, R square: 0.7950167816450275
+trait: Photo_O, R square: 0.5346589646143209
+trait: Cond_O, R square: 0.07453346204828959
+Average R square: 0.6270205862537955
+-------------------------------------------------
+Here are the test data set results: 
+trait: LMA_O, R square: 0.7320348447835381
+trait: Narea_O, R square: 0.8059889019416687
+trait: SPAD_O, R square: 0.8042993794517065
+trait: Nmass_O, R square: 0.6658423090523571
+trait: Parea_O, R square: 0.33450241930063984
+trait: Pmass_O, R square: 0.39253418258089023
+trait: Vcmax, R square: 0.5786862950272365
+trait: Vcmax25, R square: 0.4877517845169467
+trait: J, R square: 0.7281174384612179
+trait: Photo_O, R square: 0.626643293854956
+trait: Cond_O, R square: 0.2082273490479104
+Average R square: 0.5786025634562789
+-------------------------------------------------

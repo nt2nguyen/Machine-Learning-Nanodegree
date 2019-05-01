@@ -1,0 +1,61 @@
+HyperSpectrumModelAvgPoolDeepCNN_V(
+  (avgPool1): AvgPool1d(kernel_size=(2,), stride=(2,), padding=(0,))
+  (block1): DeepBasicBlock(
+    (Conv1D): Conv1d(1, 10, kernel_size=(3,), stride=(2,), padding=(1,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(10, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_1): DeepBasicBlock(
+    (Conv1D): Conv1d(10, 50, kernel_size=(3,), stride=(2,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(50, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_2): DeepBasicBlock(
+    (Conv1D): Conv1d(50, 50, kernel_size=(3,), stride=(2,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(50, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block3_1): DeepBasicBlock(
+    (Conv1D): Conv1d(50, 100, kernel_size=(3,), stride=(2,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block3_2): DeepBasicBlock(
+    (Conv1D): Conv1d(100, 100, kernel_size=(3,), stride=(2,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (avgPool4): AvgPool1d(kernel_size=(2,), stride=(2,), padding=(0,))
+  (block3_3): DeepBasicBlock(
+    (Conv1D): Conv1d(100, 200, kernel_size=(3,), stride=(2,))
+    (noise): GaussianNoise()
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (fc1): Linear(in_features=1400, out_features=1000, bias=True)
+  (relu1): ReLU(inplace)
+  (dropout1): Dropout(p=0.5)
+  (fc2): Linear(in_features=1000, out_features=500, bias=True)
+  (relu2): ReLU(inplace)
+  (dropout2): Dropout(p=0.5)
+  (fc3): Linear(in_features=500, out_features=1, bias=True)
+)
+lr: 0.0005, dropout: 0.5, weight_decay:0.0001
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.9106044769287109
+Average R square: 0.9106044769287109
+-------------------------------------------------
+Here are the validation data set results:
+trait: Parea_O, R square: 0.39404934644699097
+Average R square: 0.39404934644699097
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.32078689336776733
+Average R square: 0.32078689336776733
+-------------------------------------------------

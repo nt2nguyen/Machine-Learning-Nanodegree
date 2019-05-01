@@ -1,0 +1,42 @@
+-------------------------------------------------
+best parameters
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.8, 'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+trait: {'colsample_bytree': 0.5, 'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 1000, 'subsample': 0.7}
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9999661924405628
+trait: Narea_O, R square: 0.99981818604048
+trait: SPAD_O, R square: 0.9998842920763026
+trait: Nmass_O, R square: 0.93142069208989
+trait: Parea_O, R square: 0.8210632792744792
+trait: Pmass_O, R square: 0.9995147893558297
+trait: Vcmax, R square: 0.9892288238016647
+trait: Vcmax25, R square: 0.9987196847873662
+trait: J, R square: 0.9814904743055974
+trait: Photo_O, R square: 0.9832349176066183
+trait: Cond_O, R square: 0.7464320096762671
+Average R square: 0.9500703037686417
+-------------------------------------------------
+Here are the test data set results: 
+trait: LMA_O, R square: 0.7539610321052269
+trait: Narea_O, R square: 0.7980068256460122
+trait: SPAD_O, R square: 0.8011006487713597
+trait: Nmass_O, R square: 0.6445674688672891
+trait: Parea_O, R square: 0.30993582153327937
+trait: Pmass_O, R square: 0.46846238755351743
+trait: Vcmax, R square: 0.5453186661106456
+trait: Vcmax25, R square: 0.4538412473499439
+trait: J, R square: 0.7180924531112423
+trait: Photo_O, R square: 0.6705247577380733
+trait: Cond_O, R square: 0.3176129635454358
+Average R square: 0.5892203883938205
+-------------------------------------------------

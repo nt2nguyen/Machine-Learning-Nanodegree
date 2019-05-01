@@ -1,0 +1,42 @@
+-------------------------------------------------
+best parameters
+trait: {'learning_rate': 0.08, 'max_depth': 3, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.1, 'max_depth': 3, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.08, 'max_depth': 3, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.1, 'max_depth': 3, 'colsample_bytree': 0.8}
+trait: {'learning_rate': 0.1, 'max_depth': 7, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.08, 'max_depth': 11, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.1, 'max_depth': 3, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.08, 'max_depth': 9, 'colsample_bytree': 0.8}
+trait: {'learning_rate': 0.1, 'max_depth': 3, 'colsample_bytree': 1}
+trait: {'learning_rate': 0.1, 'max_depth': 9, 'colsample_bytree': 0.3}
+trait: {'learning_rate': 0.01, 'max_depth': 3, 'colsample_bytree': 1}
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9989351630323589
+trait: Narea_O, R square: 0.974155461606141
+trait: SPAD_O, R square: 0.948358029749593
+trait: Nmass_O, R square: 0.9775907410176368
+trait: Parea_O, R square: 0.8028698391775884
+trait: Pmass_O, R square: 0.9990102960748017
+trait: Vcmax, R square: 0.9803983583377892
+trait: Vcmax25, R square: 0.9990992702503826
+trait: J, R square: 0.9923214913047235
+trait: Photo_O, R square: 0.999980625699908
+trait: Cond_O, R square: 0.5952729964459441
+Average R square: 0.9334538429724423
+-------------------------------------------------
+Here are the validation data set results: 
+trait: LMA_O, R square: 0.7431175374574703
+trait: Narea_O, R square: 0.8146914355659374
+trait: SPAD_O, R square: 0.8135533738442356
+trait: Nmass_O, R square: 0.6496835510085612
+trait: Parea_O, R square: 0.2966031538362188
+trait: Pmass_O, R square: 0.4367383273928872
+trait: Vcmax, R square: 0.5373985020081002
+trait: Vcmax25, R square: 0.45668662226658374
+trait: J, R square: 0.7205910361854668
+trait: Photo_O, R square: 0.632060016018928
+trait: Cond_O, R square: 0.3703010799708045
+Average R square: 0.5883113305050176
+-------------------------------------------------

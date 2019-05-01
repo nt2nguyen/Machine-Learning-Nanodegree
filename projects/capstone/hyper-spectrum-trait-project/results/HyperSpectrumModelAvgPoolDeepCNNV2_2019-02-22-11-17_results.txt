@@ -1,0 +1,9 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: Cond_O, R square: 0.8948769569396973
+Average R square: 0.8948769569396973
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Cond_O, R square: 0.3731764554977417
+Average R square: 0.3731764554977417
+-------------------------------------------------

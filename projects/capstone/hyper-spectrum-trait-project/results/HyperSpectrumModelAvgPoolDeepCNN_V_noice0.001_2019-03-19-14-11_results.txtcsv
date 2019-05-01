@@ -1,0 +1,4 @@
+Model, Dataset, LMA_O, Narea_O, SPAD_O, Nmass_O, Parea_O, Pmass_O, Vcmax, Vcmax25, J, Photo_O, Cond_O, Average
+HyperSpectrumModelAvgPoolDeepCNN_V_noice0.001, train, -0.002177596092224121, -0.002177596092224121
+HyperSpectrumModelAvgPoolDeepCNN_V_noice0.001, val, -0.002177596092224121, -0.002177596092224121
+HyperSpectrumModelAvgPoolDeepCNN_V_noice0.001, test, -0.002177596092224121, -0.002177596092224121

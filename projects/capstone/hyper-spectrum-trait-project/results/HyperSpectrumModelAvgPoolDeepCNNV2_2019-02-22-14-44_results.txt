@@ -1,0 +1,9 @@
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.8333534002304077
+Average R square: 0.8333534002304077
+-------------------------------------------------
+Here are the testing data set results: 
+trait: Parea_O, R square: 0.3713133931159973
+Average R square: 0.3713133931159973
+-------------------------------------------------

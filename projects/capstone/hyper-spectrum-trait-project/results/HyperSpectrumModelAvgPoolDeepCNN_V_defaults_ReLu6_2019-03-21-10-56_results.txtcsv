@@ -1,0 +1,4 @@
+Model, Dataset, LMA_O, Narea_O, SPAD_O, Nmass_O, Parea_O, Pmass_O, Vcmax, Vcmax25, J, Photo_O, Cond_O, Average
+HyperSpectrumModelAvgPoolDeepCNN_V_defaults_ReLu6, train, 0.3682247996330261, 0.3682247996330261
+HyperSpectrumModelAvgPoolDeepCNN_V_defaults_ReLu6, val, 0.3682247996330261, 0.3682247996330261
+HyperSpectrumModelAvgPoolDeepCNN_V_defaults_ReLu6, test, 0.3682247996330261, 0.3682247996330261

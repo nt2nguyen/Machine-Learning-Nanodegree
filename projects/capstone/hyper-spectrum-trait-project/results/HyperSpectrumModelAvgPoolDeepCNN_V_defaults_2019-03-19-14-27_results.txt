@@ -1,0 +1,75 @@
+HyperSpectrumModelAvgPoolDeepCNN_V(
+  (noise): GaussianNoise()
+  (avgPool1): AvgPool1d(kernel_size=(5,), stride=(5,), padding=(0,))
+  (block1): DeepBasicBlock(
+    (Conv1D): Conv1d(1, 50, kernel_size=(5,), stride=(5,), padding=(1,))
+    (bn): BatchNorm1d(50, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_1): DeepBasicBlock(
+    (Conv1D): Conv1d(50, 100, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block2_2): DeepBasicBlock(
+    (Conv1D): Conv1d(100, 200, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (block3_1): DeepBasicBlock(
+    (Conv1D): Conv1d(200, 400, kernel_size=(3,), stride=(3,))
+    (bn): BatchNorm1d(400, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (relu): ReLU(inplace)
+  )
+  (fc1): Linear(in_features=1200, out_features=800, bias=True)
+  (relu1): ReLU(inplace)
+  (dropout1): Dropout(p=0.5)
+  (fc2): Linear(in_features=800, out_features=200, bias=True)
+  (relu2): ReLU(inplace)
+  (dropout2): Dropout(p=0.5)
+  (fc3): Linear(in_features=200, out_features=1, bias=True)
+)
+lr: 0.001, dropout: 0.5, weight_decay:0.0
+-------------------------------------------------
+Here are the training data set results:
+trait: LMA_O, R square: 0.9688596129417419
+trait: Narea_O, R square: 0.9665766954421997
+trait: SPAD_O, R square: 0.9656758904457092
+trait: Nmass_O, R square: 0.9574444890022278
+trait: Parea_O, R square: 0.9469233751296997
+trait: Pmass_O, R square: 0.9478133916854858
+trait: Vcmax, R square: 0.9601497650146484
+trait: Vcmax25, R square: 0.956997275352478
+trait: J, R square: 0.9655012488365173
+trait: Photo_O, R square: 0.9636252522468567
+trait: Cond_O, R square: 0.9616501927375793
+Average R square: 0.9601106535304677
+-------------------------------------------------
+Here are the validation data set results:
+trait: LMA_O, R square: 0.8856000900268555
+trait: Narea_O, R square: 0.9388879537582397
+trait: SPAD_O, R square: 0.8694643378257751
+trait: Nmass_O, R square: 0.7773804664611816
+trait: Parea_O, R square: 0.4809528589248657
+trait: Pmass_O, R square: 0.6663171052932739
+trait: Vcmax, R square: 0.7794424891471863
+trait: Vcmax25, R square: 0.7869988083839417
+trait: J, R square: 0.8817576169967651
+trait: Photo_O, R square: 0.6457355618476868
+trait: Cond_O, R square: 0.40179091691970825
+Average R square: 0.7376662005077709
+-------------------------------------------------
+Here are the testing data set results: 
+trait: LMA_O, R square: 0.8238335847854614
+trait: Narea_O, R square: 0.8991382718086243
+trait: SPAD_O, R square: 0.8305007815361023
+trait: Nmass_O, R square: 0.7373309135437012
+trait: Parea_O, R square: 0.15342706441879272
+trait: Pmass_O, R square: 0.5171846151351929
+trait: Vcmax, R square: 0.6572557687759399
+trait: Vcmax25, R square: 0.6016688346862793
+trait: J, R square: 0.7713233828544617
+trait: Photo_O, R square: 0.6388046741485596
+trait: Cond_O, R square: 0.3051150441169739
+Average R square: 0.630507539619099
+-------------------------------------------------

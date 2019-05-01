@@ -1,0 +1,12 @@
+-------------------------------------------------
+best parameters
+trait: {'learning_rate': 0.1, 'max_depth': 5, 'colsample_bytree': 0.3, 'subsample': 0.9, 'gamma': 0}
+-------------------------------------------------
+Here are the training data set results:
+trait: Parea_O, R square: 0.7732915846134907
+Average R square: 0.7732915846134907
+-------------------------------------------------
+Here are the validation data set results: 
+trait: Parea_O, R square: 0.3348668420373314
+Average R square: 0.3348668420373314
+-------------------------------------------------
